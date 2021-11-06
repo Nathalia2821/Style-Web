@@ -1,0 +1,187 @@
+
+.row{
+    background-color: #FFFFFF ;
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+   }
+   .row h1{
+    color:#F97300;
+    margin: 2em;
+   }
+   .row img{
+    height: 100%;
+       width: 100%;
+       
+   }
+
+   
+
+
+   /*Prendas Azules*/
+.prendas_azules{
+    background-color: #FFFFFF;
+    margin: 4em 0;
+       position: relative; 
+   }
+   .prendas_azules h1{
+    color:#000000;
+    margin: 2em; 
+   }
+   
+   .prendas_azules p{
+    color:#000000;
+    margin: 0em;
+    letter-spacing: 0.2em;
+   }
+   .prendas_azules img{
+     height: 15rem;
+     width: 100%;
+     margin: 1em;
+     
+   }
+   .prendas_azules .des{
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition:.3s ease-in-out;
+
+    
+   }
+
+   .prendas_azules  .item:hover .tip{
+   
+    height: 78%;
+    background:#b7cdf77c;
+    color: #fff;
+    position: absolute;
+    width: 33%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+    text-align: center;
+    cursor: pointer;
+    visibility: visible;
+  
+  
+   }
+  
+   .prendas_azules .item:hover .tip .oculto{
+     visibility: visible;
+   }
+
+
+     /*Prendas Rojas*/
+.prendas_rojas{
+    background-color: #FFFFFF;
+    margin: 4em 0;
+       position: relative; 
+   }
+   .prendas_rojas h1{
+    color:#000000;
+    margin: 2em; 
+   }
+   .prendas_rojas img{
+     height: 15rem;
+     width: 100%;
+     margin: 1em;
+     
+   }
+   .prendas_rojas .des{
+    background: transparent;
+    color: #fff;
+    text-align: center;
+    border-bottom-left-radius: 93%;
+    transition:.3s ease-in-out;
+    
+   }
+
+
+   .prendas_rojas  .item:hover .tip{
+   
+    height: 78%;
+    background:#f7b7b77c;
+    color: #fff;
+    position: absolute;
+    width: 33%;
+    padding: 5em;
+    top: 0;
+    border-bottom-left-radius: 0;
+    text-align: center;
+    cursor: pointer;
+    visibility: visible;
+  
+  
+   }
+  
+   .prendas_rojas .item:hover .tip .oculto{
+     visibility: visible;
+   }
+
+
+
+   /*Prendas Moradas*/
+.prendas_moradas{
+  background-color: #FFFFFF;
+  margin: 4em 0;
+     position: relative; 
+ }
+ .prendas_moradas h1{
+  color:#000000;
+  margin: 2em; 
+ }
+ 
+ .prendas_moradas p{
+  color:#000000;
+  margin: 0em;
+  letter-spacing: 0.2em;
+ }
+ .prendas_moradas img{
+   height: 15rem;
+   width: 100%;
+   margin: 1em;
+   
+ }
+ .prendas_moradas .des{
+  background: transparent;
+  color: #fff;
+  text-align: center;
+  border-bottom-left-radius: 93%;
+  transition:.3s ease-in-out;
+  
+ }
+
+ .oculto {
+  visibility: hidden;
+}
+
+
+   
+ .prendas_moradas  .item:hover .tip{
+   
+  height: 68%;
+  background:#d996ee7c;
+  color: #fff;
+  position: absolute;
+  width: 30%;
+  padding: 5em;
+  top: 0;
+  border-bottom-left-radius: 0;
+  text-align: center;
+  cursor: pointer;
+  visibility: visible;
+
+
+ }
+
+ .prendas_moradas .item:hover .tip .oculto{
+   visibility: visible;
+ }
+
+
+
+  
+  .btn {
+    background: #cfcbe673;
+  }
