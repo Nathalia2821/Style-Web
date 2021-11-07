@@ -4,11 +4,208 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <title>Style-web</title>
 </head>
-<body>
-    <h1>Prueba holaaaaaaas</h1>
-    <h1>holaaaaas buenass  holaaaa </h1>
+    <body>
+        <div class="divimg1">
+            <img src="../img/moda1.png"  onmouseout="this.src='../img/moda1.png'" onmouseover="this.src='../img/moda2.png'"></img>
+        </div>
+        <div class="divimg2">
+            <img src="../img/moda3.png" onmouseout="this.src='../img/moda3.png'" onmouseover="this.src='../img/moda4.png'"></img>
+        </div>
+         <div class="container">
+            <div class="row">
+                <div class="col-lg-6  col-md-4	col-sm-3">
+                    <div class="cards">
+                        <font color="#0b3c83" face="Comic Sans MS,arial">
+                            <h3>Bienvenido a Style Web</h3>
+                        </font>
+                        <p class="letra">Crea tu propio Outfit, elige las prendas que mas te gusten y se adecuen para ti </p>
+                    </div>
+                    <div class="cards">
+                        <font color="#830b5b" face="Comic Sans MS,arial">
+                            <h3>Diseña y Crea</h3>
+                        </font>
+                        <p class="letra">Estamos comprometidos en darte la mejor experiencia de compra, no es necesario
+                            que te sepas vestir aqui te enseñamos
+                        </p>
+                    </div>
+                    <div class="cards2">
+                        <font color="#0b6483" face="Comic Sans MS,arial">
+                            <h3>Unete y Diviertete</h3>
+                        </font>
+                        <p class="letra">Nuestra plataforma esta diseñada para que de acuerdo a tus caracteristicas fisicas, 
+                            encuentres la prenda ideal para cada evento social. 
+                        </p>
+                        <p class="letra"><b>¿Que esperas? </b>Inicia sesión o registrate, Unete a esta gran experiencia</p>
+                    </div>
 
-</body>
+                </div>
+                <div class="col-lg-6  col-md-5	col-sm-4">
+                   
+                    <div class="continire">
+                        <div class="cont" >
+                            <div class="form-group">
+                                <button type="button" class="btn btn-outline-danger" onclick="mostrarInicio();">Iniciar Sesión</button>
+                                <button type="button" class="btn btn-outline-warning" onclick="mostrarRegistro();">Registrar Usuario</button> 
+                            </div>
+                        </div>
+
+                        <div id="inicio">
+                            
+                            <div class="input-group mb-2">
+                                  <div class="input-group-prepend">
+                                    <span class="input-group-text" id="inputGroupPrepend2"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                      </svg>
+                                    </span>
+                                  </div> 
+                                 <input class="form-control input-sm" name="usuario" id="" required="required" placeholder="Usuario" type="text">
+                            </div>
+                            <div class="input-group mb-3">
+                                <span class="input-group-text" id="inputGroupPrepend2"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" fill="currentColor" class="bi bi-key-fill" viewBox="0 0 16 16">
+                                        <path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                      </svg>
+                                </span>                                
+                               <input class="form-control input-sm" name="" id="" required="required" placeholder="Contraseña" type="password">
+                            </div>
+                            <center>
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-outline-primary" onclick="location.href='Admin.html'">Aceptar</button>
+                                </div>
+                            </center> 
+                        </div>
+                        <div id="registro">
+                            <form>
+                            </form>  
+                            <div style="width:210px; float:left;">
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend2"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                          </svg>
+                                        </span>
+                                      </div> 
+                                     <input class="form-control input-sm" name="usuario" id="" required="required" placeholder="Nombre" type="text">
+                                </div>
+                            </div>
+
+                            <div style="width:210px; float:right;">
+                            
+                                <div class="input-group mb-2">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend2"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                            <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                                            <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                                          </svg>
+                                        </span>
+                                      </div> 
+                                  
+                                     <input class="form-control input-sm" name="usuario" id="" required="required" placeholder="Apellido" type="text">
+                                </div>
+                        
+                            </div>
+                            <div style="width:210px; float:left;">
+                                <div class="input-group mb-2">
+                                     <input class="form-control input-sm" name="piel" id="" required="required" placeholder="Color de Piel" type="text">
+                                </div>
+                            </div>
+
+                            <div style="width:210px; float:right;">
+                                <div class="input-group mb-2">
+                                    <select class="form-select" >
+                                        <option selected>Talla Camisa</option>
+                                        <option value="1">XS</option>
+                                        <option value="2">S</option>
+                                        <option value="3">M</option>
+                                        <option value="4">L</option>
+                                        <option value="5">XL</option>
+                                      </select>
+                                </div>
+                            </div>
+
+                            <div style="width:210px; float:left;">
+                                <div class="input-group mb-2">
+                                    <select class="form-select" >
+                                        <option selected>Genero</option>
+                                        <option value="1">Femenino</option>
+                                        <option value="2">Masculino</option>
+                                      </select>
+                                </div>
+                            </div>
+
+                            <div style="width:210px; float:right;">
+                                <div class="input-group mb-2">
+                                    <select class="form-select" >
+                                        <option selected>Talla Pantalon</option>
+                                        <option value="1">6</option>
+                                        <option value="2">8</option>
+                                        <option value="3">10</option>
+                                        <option value="4">16</option>
+                                        <option value="5">24</option>
+                                      </select>
+                                </div>
+                            </div>
+
+                            <div style="width:210px; float:left;">
+                                <div class="input-group mb-2">
+                                    <input class="form-control input-sm" name="Estatura" id="" required="required" placeholder="Estatura" type="text">   
+                                </div>
+                            </div>
+                            <div style="width:210px; float:right;">
+                                <div class="input-group mb-2">
+                                     <input class="form-control input-sm" name="Edad" id="" required="required" placeholder="Edad" type="text">
+                                </div>
+                            </div>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                  <div class="input-group-prepend">
+                                        <span class="input-group-text" id="inputGroupPrepend2"> 
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" fill="currentColor" class="bi bi-envelope-open-fill" viewBox="0 0 16 16">
+                                                <path d="M8.941.435a2 2 0 0 0-1.882 0l-6 3.2A2 2 0 0 0 0 5.4v.314l6.709 3.932L8 8.928l1.291.718L16 5.714V5.4a2 2 0 0 0-1.059-1.765l-6-3.2ZM16 6.873l-5.693 3.337L16 13.372v-6.5Zm-.059 7.611L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516ZM0 13.373l5.693-3.163L0 6.873v6.5Z"/>
+                                              </svg>
+                                        </span>
+                                      </div>           
+                                </div>
+                                <input type="" class="form-control" id="" placeholder="correo electronico">
+                            </div>
+                             <div class="input-group mb-3">
+                                <span class="input-group-text" id="inputGroupPrepend2"> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="24" fill="currentColor" class="bi bi-key-fill" viewBox="0 0 16 16">
+                                        <path d="M3.5 11.5a3.5 3.5 0 1 1 3.163-5H14L15.5 8 14 9.5l-1-1-1 1-1-1-1 1-1-1-1 1H6.663a3.5 3.5 0 0 1-3.163 2zM2.5 9a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+                                      </svg>
+                                </span>                                
+                               <input class="form-control input-sm" name="" id="" required="required" placeholder="Contraseña" type="password">
+                            </div>
+                            <center>
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-outline-primary"  onclick="location.href='Filtros.html'">Enviar</button>
+                                </div>
+                            </center>
+                                
+                            </div>
+                      </div>
+                    
+                    </div>
+                </div>
+            </div>
+            
+            <div class="divimg3">
+                <img src="../img/moda5.png"  onmouseout="this.src='../img/moda5.png'" onmouseover="this.src='../img/moda6.png'"></img>
+            </div>
+        </div>
+        
+      <script src="../js/main.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
 </html>
+
